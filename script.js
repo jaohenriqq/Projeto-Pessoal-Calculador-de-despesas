@@ -9,18 +9,20 @@ if(value>2){
     let total =(value1+money+value5+value6)
     var number = 2
   while(number==2)
-    {var option = prompt('você quer ver :\n 1- quanto você tem de saldo líquido\n 2-quanto você teve de despesas?\n 3-sair da função ') 
+    {let option = prompt('você quer ver :\n 1- quanto você tem de saldo líquido\n 2-quanto você teve de despesas?\n 3-sair da função ') 
   
     
   switch(option){
-case ('1'):alert(`seu saldo líquido é de: ${value - total}`)
-    break
-case ('2'):alert(`seu total de despesas é de: ${total}`)  
-    break
-case('3'):
+    case ('1'):
+      alert(`seu saldo líquido é de: ${value - total}`)
+      break
+    case ('2'):
+      alert(`seu total de despesas é de: ${total}`)  
+      break
+    case('3'):
     number++  
-alert('voce saiu da função')
-    break
+      alert('voce saiu da função')
+      break
     }
    }
   for(let take =0;take<1;take++)
